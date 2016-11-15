@@ -17,6 +17,7 @@ end
 
 require 'bundler/gem_tasks'
 
+# rubocop:disable Lint/HandleExceptions
 begin
   require 'rspec/core/rake_task'
   RSpec::Core::RakeTask.new(:spec)

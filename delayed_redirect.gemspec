@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Jonathon Padfield']
   s.email       = ['jonathon.padfield@gmail.com']
   s.homepage    = 'https://github.com/trammel/delayed_redirect'
-  s.summary     = 'A middleware Rails app that can do a redirect after the page is rendered.'
-  s.description = 'A middleware Rails app than can do a redirect after the page is rendered.'
+  s.summary     = 'Middleware for Rails that can redirect after the page is rendered.'
+  s.description = 'Middleware ror Rails that can redirect after the page is rendered.'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
